@@ -9,7 +9,8 @@ author-email = "lallani@student.ie.edu"
 description-file = "README.md"
 
 requires= [
-    "pandas", "numpy","sklearn","joblib"
+    "pandas", "numpy","sklearn","joblib",
+    # "flask", #Instead, use requirements.txt
 ]
 
 [tool.flit.metadata.requires-extra]
